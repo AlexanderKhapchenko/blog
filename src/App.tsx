@@ -1,8 +1,12 @@
 import React from 'react';
+
+import { ENV } from './common/enums/app/env.enum';
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function App(): JSX.Element {
+  // eslint-disable-next-line no-console
+  console.log(ENV.API_PATH);
   return (
     <div className="App">
       <header className="App-header">
@@ -23,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export { App };
