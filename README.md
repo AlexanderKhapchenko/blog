@@ -4,6 +4,8 @@ This project was test task for company Inquire
 
 ## Available Scripts
 
+Copy `.env.example` file to create and fill `.env` file.
+
 To install all dependencies, you can run
 
 ### `npm i`
