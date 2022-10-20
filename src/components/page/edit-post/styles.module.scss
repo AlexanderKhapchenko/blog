@@ -20,7 +20,7 @@
 
 .buttons {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 
   button:nth-child(2) {
     margin-left: 20px;
