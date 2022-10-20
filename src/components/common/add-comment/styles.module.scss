@@ -1,0 +1,14 @@
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+
+  button:nth-child(2) {
+    margin-left: 20px;
+  }
+}
+

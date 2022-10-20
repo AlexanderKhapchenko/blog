@@ -1,0 +1,15 @@
+.card {
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.cardAction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons {
+  button:nth-child(2) {
+    margin-left: 10px;
+  }
+}
